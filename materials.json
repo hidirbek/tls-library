@@ -8,7 +8,8 @@
     "years": [2023, 2024],
     "copies": 1,
     "tags": ["классика"],
-    "description": ""
+    "description": "",
+    "file": "./files/dubrovskiy.pdf"
   },
   {
     "id": "bk-0002",
@@ -19,7 +20,8 @@
     "years": [2025],
     "copies": 1,
     "tags": ["приключения"],
-    "description": ""
+    "description": "",
+    "file": "./files/robinzon_kruzo.pdf"
   },
   {
     "id": "bk-0003",
@@ -30,7 +32,8 @@
     "years": [2025],
     "copies": 1,
     "tags": ["приключения"],
-    "description": ""
+    "description": "",
+    "file": "./files/maugli.pdf"
   },
   {
     "id": "bk-0004",
@@ -41,7 +44,8 @@
     "years": [2023, 2024],
     "copies": 1,
     "tags": ["приключения"],
-    "description": ""
+    "description": "",
+    "file": "./files/tri_mushketera.pdf"
   },
   {
     "id": "bk-0005",
@@ -52,7 +56,8 @@
     "years": [2024],
     "copies": 1,
     "tags": ["рассказы"],
-    "description": ""
+    "description": "",
+    "file": "./files/deniskini_raskazi.pdf"
   },
   {
     "id": "bk-0006",
@@ -63,7 +68,8 @@
     "years": [2025],
     "copies": 1,
     "tags": ["роман"],
-    "description": ""
+    "description": "",
+    "file": "./files/zuleyha_otkrivaet_glaza.pdf"
   },
   {
     "id": "bk-0007",
