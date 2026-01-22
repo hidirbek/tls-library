@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Электронная библиотека школы</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="site_logo-wrapper">
+        <img src="./img/1.png" alt="" />
+      </div>
+      <div>
+        <h1 class="header-title">Электронная библиотека школы</h1>
+        <p class="sub">Поиск учебников, презентаций и методичек</p>
+      </div>
+      <div></div>
+    </header>
+
+    <main class="container">
+      <section class="controls">
+        <input
+          id="search"
+          class="search"
+          type="search"
+          placeholder="Поиск: название, автор, теги..."
+        />
+
+        <div class="filters">
+          <select id="subject">
+            <option value="">Все предметы</option>
+          </select>
+
+          <select id="grade">
+            <option value="">Все классы</option>
+          </select>
+
+          <select id="type">
+            <option value="">Все типы</option>
+            <option value="Учебник">Учебник</option>
+            <option value="Презентация">Презентация</option>
+            <option value="Методичка">Методичка</option>
+            <option value="Книга">Книга</option>
+            <option value="Ссылка">Ссылка</option>
+          </select>
+
+          <select id="sort">
+            <option value="new">Сначала новые</option>
+            <option value="old">Сначала старые</option>
+            <option value="az">А–Я</option>
+          </select>
+
+          <button id="reset" class="btn">Сброс</button>
+        </div>
+
+        <div class="meta">
+          <span id="count">0 материалов</span>
+          <span id="activeFilters"></span>
+        </div>
+      </section>
+
+      <section id="grid" class="grid" aria-live="polite"></section>
+
+      <!-- Модалка (карточка материала) -->
+      <dialog id="modal" class="modal">
+        <div class="modal__content">
+          <button id="closeModal" class="modal__close" aria-label="Закрыть">
+            ×
+          </button>
+          <div id="modalBody"></div>
+        </div>
+      </dialog>
+    </main>
+
+    <footer class="footer">
+      <small>© Школьная электронная библиотека • Проект на HTML/CSS/JS</small>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
